@@ -1,4 +1,66 @@
+.pag1 {
+    background: rgb(200, 200, 200);
+}
+
+.Encabezado {
+    background: white;
+    width: 1217px;
+    height: 50px;
+    margin: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.derecha {
+    font-size: 10px;
+    display: flex;
+}
 p {
-    font-size: 12px;
+    height: 10px;
+    padding-left: 30px;
+}
+b {
+    font-style: normal;
+}
+.centro {
+    padding-left: 150px;
+    font-size: 10px;
+    font-style: italic;
     font-family: Arial;
+}
+.izquierda {
+    padding-left: 240px;
+    font-size: 10px;
+    display: flex;
+}
+
+
+
+.Centropg1 {
+    height: 300px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 550px;
+    overflow: hidden;
+}
+.Arriba {
+    width: 150px;
+    height: 80px;
+    margin-left:10px;
+    font-size: 25px;
+}
+.Medio {
+    width: 170px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.Abajo {
+    font-size: 12px;
+    width: 100px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
