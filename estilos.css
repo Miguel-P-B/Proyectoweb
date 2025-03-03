@@ -1,66 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 .pag1 {
     background: rgb(200, 200, 200);
 }
-
+img {
+    position: absolute;
+    width: 1900px;
+    height: 900px;
+}
+.Textopg1 {
+    position: relative;
+}
 .Encabezado {
     background: white;
-    width: 1217px;
     height: 50px;
     margin: 20px;
     white-space: nowrap;
     overflow: hidden;
-    display: flex;
+    display:flex;
     align-items: center;
+    justify-content: space-between;
 }
-
 .derecha {
-    font-size: 10px;
-    display: flex;
-}
-p {
-    height: 10px;
+    font-size: 14px;
     padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 14px;
+    font-weight: 100;
 }
 b {
     font-style: normal;
 }
 .centro {
-    padding-left: 150px;
-    font-size: 10px;
+    position: relative;
+    right: 100px;
     font-style: italic;
     font-family: Arial;
 }
 .izquierda {
-    padding-left: 240px;
-    font-size: 10px;
+    position: relative;
+    right: 30px;
+    width: 120px;
+    font-size: 14px;
     display: flex;
+    justify-content: space-between;
 }
-
-
-
 .Centropg1 {
     height: 300px;
-    width: 300px;
-    margin-top: 150px;
-    margin-left: 550px;
-    overflow: hidden;
+    width: 230px;
+    position: relative;
+    top: 150px;
+    left: 1010px;
 }
 .Arriba {
-    width: 150px;
-    height: 80px;
-    margin-left:10px;
-    font-size: 25px;
+    width: 200px;
+    height: 100px;
+    font-size: 43px;
 }
 .Medio {
-    width: 170px;
-    height: 30px;
-    margin-left: 10px;
-    font-size: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 13px;
+    position: absolute;
+    top: 150px;
 }
 .Abajo {
-    font-size: 12px;
-    width: 100px;
-    height: 20px;
-    margin-left: 40px;
-    margin-top: 20px;
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 250px;
 }
