@@ -7,8 +7,8 @@
 }
 img {
     position: absolute;
-    width: 1900px;
-    height: 900px;
+    width: 1200px;
+    height: 670px;
 }
 .Textopg1 {
     position: relative;
@@ -37,6 +37,9 @@ h1 {
 }
 b {
     font-style: normal;
+}
+a {
+    color: black;
 }
 .centro {
     position: relative;
@@ -77,4 +80,39 @@ b {
     height: 30px;
     position: absolute;
     top: 250px;
+}
+
+.Patiadera {
+    background: rgb(192, 186, 138);
+    position: absolute;
+    top: 635px;
+    right: 30px;
+    width: 120px;
+    height: 40px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chat {
+    font-size: 12px;
+    position: relative;
+    right: 20px;
+}
+.msg {
+    position: relative;
+    background: white;
+    display: flex;
+    margin-left: 10px;
+    width: 25px;
+    height: 20px;
+}
+.circulo {
+    position: relative;
+    background: black;
+    margin: auto;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
 }
