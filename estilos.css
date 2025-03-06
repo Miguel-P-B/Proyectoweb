@@ -2,8 +2,11 @@
     padding: 0;
     margin: 0;
 }
-.pag1 {
+.pag11 {
     background: rgb(200, 200, 200);
+    box-sizing: border-box;
+    width: 1519px;
+    height: 710px;
 }
 img {
     position: absolute;
@@ -11,7 +14,7 @@ img {
     height: 670px;
 }
 .Textopg1 {
-    position: relative;
+    position: absolute;
 }
 .Encabezado {
     background: white;
@@ -24,43 +27,47 @@ img {
     justify-content: space-between;
 }
 .derecha {
+    background: red;
     font-size: 14px;
-    padding-left: 30px;
-    padding-right: 30px;
-    display: flex;
+    padding: 20px;
     width: 300px;
-    justify-content: space-between;
+    text-decoration: none;
 }
-h1 {
-    font-size: 14px;
-    font-weight: 100;
+nav {
+    display: flex;
+    position: relative;
+    width: 350px;
 }
-b {
+.centro b {
     font-style: normal;
 }
 a {
     color: black;
 }
 .centro {
+    background: purple;
     position: relative;
     right: 100px;
     font-style: italic;
     font-family: Arial;
+    text-decoration: none;
 }
 .izquierda {
+    background: yellow;
     position: relative;
-    right: 30px;
-    width: 120px;
+    width: 60px;
     font-size: 14px;
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
 .Centropg1 {
     height: 300px;
     width: 230px;
     position: relative;
     top: 150px;
-    left: 1010px;
+    left: 200px;
+    margin: auto;
 }
 .Arriba {
     width: 200px;
@@ -107,6 +114,7 @@ a {
     margin-left: 10px;
     width: 25px;
     height: 20px;
+    border-radius: 20%;
 }
 .circulo {
     position: relative;
@@ -115,4 +123,38 @@ a {
     width: 4px;
     height: 4px;
     border-radius: 50%;
+}
+/*ESTILOS PARA PAGINA 1 CARA 1*/
+
+.Pag12 {
+    background: rgb(200, 200, 200);
+    box-sizing: border-box;
+    width: 1519px;
+    height: 710px;
+    padding: 1px;
+    position: absolute;
+}
+.medio12 {
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: 450px;
+    left: 900px;
+}
+.arriba12 {
+    font-size: 20px;
+}
+.link12 {
+    font-size: 11px;
+}
+.esqI12 {
+    height: 40px;
+    width: 70px;
+    position: relative;
+    top:570px;
+    left: 50px;
+}
+.dsc12 {
+    font-family: Arial;
+    font-size: 18px;
 }
