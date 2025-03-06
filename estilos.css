@@ -1,160 +1,70 @@
 * {
-    padding: 0;
-    margin: 0;
-}
-.pag11 {
-    background: rgb(200, 200, 200);
     box-sizing: border-box;
-    width: 1519px;
-    height: 710px;
 }
-img {
-    position: absolute;
-    width: 1200px;
-    height: 670px;
-}
-.Textopg1 {
-    position: absolute;
-}
-.Encabezado {
-    background: white;
-    height: 50px;
-    margin: 20px;
-    white-space: nowrap;
-    overflow: hidden;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.derecha {
-    background: red;
-    font-size: 14px;
-    padding: 20px;
-    width: 300px;
-    text-decoration: none;
-}
-nav {
-    display: flex;
+body {
+    background-color: rgb(185, 185, 185);
+    height: 145vh;
     position: relative;
-    width: 350px;
 }
-.centro b {
-    font-style: normal;
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: rgb(6, 158, 82);
 }
 a {
+    text-decoration: none;
     color: black;
 }
-.centro {
-    background: purple;
-    position: relative;
-    right: 100px;
-    font-style: italic;
+.logo {
     font-family: Arial;
-    text-decoration: none;
+    font-style: italic;
+    margin:auto;
+    font-size: 18px;
 }
-.izquierda {
-    background: yellow;
-    position: relative;
-    width: 60px;
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
+.logo b {
+    font-style: normal;
 }
-.Centropg1 {
-    height: 300px;
-    width: 230px;
-    position: relative;
-    top: 150px;
-    left: 200px;
-    margin: auto;
+.botonI {
+    padding-right: 20px;
+    padding-left: 20px;
 }
-.Arriba {
-    width: 200px;
-    height: 100px;
-    font-size: 43px;
-}
-.Medio {
-    width: 200px;
-    height: 40px;
-    font-size: 13px;
-    position: absolute;
-    top: 150px;
-}
-.Abajo {
-    font-size: 20px;
-    width: 150px;
-    height: 30px;
-    position: absolute;
-    top: 250px;
+.botonD {
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
-.Patiadera {
-    background: rgb(192, 186, 138);
-    position: absolute;
-    top: 635px;
-    right: 30px;
-    width: 120px;
-    height: 40px;
-    border-top-left-radius: 30%;
-    border-top-right-radius: 30%;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}
 .chat {
-    font-size: 12px;
-    position: relative;
-    right: 20px;
+    background: rgb(218, 207, 201);
+    height: 40px;
+    width: 130px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    top: 95.5%;
+    left: 90%;
 }
 .msg {
-    position: relative;
-    background: white;
-    display: flex;
-    margin-left: 10px;
-    width: 25px;
-    height: 20px;
-    border-radius: 20%;
+    margin-left:50px;
 }
-.circulo {
-    position: relative;
-    background: black;
-    margin: auto;
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
-}
-/*ESTILOS PARA PAGINA 1 CARA 1*/
 
-.Pag12 {
-    background: rgb(200, 200, 200);
-    box-sizing: border-box;
-    width: 1519px;
-    height: 710px;
-    padding: 1px;
-    position: absolute;
-}
-.medio12 {
-    height: 50px;
-    width: 200px;
-    position: relative;
-    top: 450px;
-    left: 900px;
-}
-.arriba12 {
-    font-size: 20px;
-}
-.link12 {
-    font-size: 11px;
-}
-.esqI12 {
-    height: 40px;
-    width: 70px;
-    position: relative;
-    top:570px;
-    left: 50px;
-}
-.dsc12 {
-    font-family: Arial;
-    font-size: 18px;
+
+@media (max-width:1050px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0px;
+    }
 }
