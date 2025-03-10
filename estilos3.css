@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+}
+.linka {
+    text-decoration: underline;
+}
+body {
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.cara1 {
+    height: 250px;
+}
+.cabeza {
+    position: relative;
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 60px;
+    display: flex;
+}
+nav {
+    width: 50%;
+}
+.botonI {
+    margin-left: 7%;
+}
+.botonD {
+    float: right;
+    margin-right: 10%;
+}
+.logo a{
+    font-family: Arial;
+    font-size: 20px;
+    font-style: italic;
+}
+.logo b {
+    font-style: normal;
+}
+.lorem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* CARA 2 DE LA PAGINA 3 */
+.cara2 {
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.lizq {
+    width: 50%;
+}
+.lizq img {
+    width: 100%;
+}
+.lder {
+    background-color: rgb(10, 135, 144);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imgtxt {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.sobre {
+    position: absolute;
+    font-size: 50px;
+}
+
+
+/* CARA 3 DE LA PAGINA 3 */
+.cara3 {
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.ldere {
+    background-color: rgb(139, 91, 48);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.txt2 p{
+    color: white;
+    font-size: 60px;
+    width: 50%;
+    margin-left: 5%;
+}
+.der {
+    height: 30%;
+}
+.img3 {
+    height: 100%;
+    width: 40%;
+
+    float: right;
+}
+.i3 {
+    height: 90%;
+    width: 100%;
+}
+.img3 p {
+    color: white;
+}
+@media (max-width:1120px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0px;
+    }
+}
