@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgb(6, 158, 82);
+}
+.linka {
+    text-decoration: underline;
+}
+body {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* CARA 1 DE LA PAGINA 3 */
+.cara1 {
+    position: relative;
+    width: 100%;
+    left: 0;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.cabeza {
+    position: absolute;
+    background-color: rgba(240, 238, 238, 0.8);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+    height: 60px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.botonesDerechos {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.botonI {
+    margin-left: 7%;
+}
+.botonD {
+    margin-right: 10%;
+}
+.logo a{
+    font-family: Arial;
+    font-size: 20px;
+    font-style: italic;
+}
+.logo b {
+    font-style: normal;
+}
+.imgprincipal {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.img1 {
+    height: 100%;
+    width: 94%;
+}
+.newin {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.cara2 {
+    display: flex;
+    padding: 30px;
+    height: 1080px;
+}
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 10%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+#selector {
+    width: 100%;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+}
+button {
+    font-size: 20px;
+    margin-top: 5%;
+    border: transparent;
+    background-color: transparent;
+}
+div button:hover {
+    text-decoration: underline;
+}
+.izquierda {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cj {
+    height: 50%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cj img {
+    width: 100%;
+    height: 80%;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.costo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.sale {
+    margin-right: 1%;
+    text-decoration: line-through;
+}

@@ -32,17 +32,6 @@ body {
     width: 50%;
     height: 100%;
 }
-header {
-    position: relative;
-    display: flex;
-    min-height: 10px;
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    align-items: center;
-    font-size: 14px;
-}
-
 nav a:hover {
     color: rgb(6, 158, 82);
 }
@@ -50,22 +39,38 @@ a {
     text-decoration: none;
     color: black;
 }
-.logo {
+.cabeza {
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    height: 60px;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.botonesDerechos {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.botonI {
+    margin-left: 7%;
+}
+.botonD {
+    margin-right: 10%;
+}
+.logo a{
     font-family: Arial;
+    font-size: 20px;
     font-style: italic;
-    margin:auto;
-    font-size: 18px;
 }
 .logo b {
     font-style: normal;
-}
-.botonI {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-.botonD {
-    padding-right: 20px;
-    padding-left: 20px;
 }
 .relleno11{
     box-sizing: border-box;
@@ -356,21 +361,26 @@ ul {
 }
 
 @media (max-width:1120px) {
-    .img1 {
-        margin-right: 3%;
-    }
-    .pantallas {
+    
+    .cabeza {
         flex-direction: column;
-    }
-    .relleno12, .cara1, .cara3{
-        height: 1800px;
-        flex-direction: column;
-    }
-    header {
-        flex-direction: column;
+        justify-content: center;
     }
     nav {
-        padding: 10px 0px;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .botonesDerechos {
+        justify-content: center;
+    }
+    .botonI {
+        margin-left: 0;
+        height: 20px;
+    }
+    .botonD {
+        margin: auto;
     }
 }
 .patiadera {
