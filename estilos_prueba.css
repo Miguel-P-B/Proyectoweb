@@ -19,7 +19,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 767px){      /* Celular */
+@media (max-width: 767px){      /*  CELULAR  */
     /* CARA 1 DE LA PAGINA 2 */
     .cara1{
         position: relative;
@@ -175,7 +175,7 @@ nav a:hover {
     
     /* CARA 3 DE LA PAGINA 2 */
 }
-@media (min-width: 768px) and (max-width:990px){    /* Tablet */
+@media (min-width: 768px) and (max-width:990px){    /* TABLET */
     /* CARA 1 DE LA PAGINA 2 */
     .cara1{
         position: relative;
@@ -234,7 +234,7 @@ nav a:hover {
     }
 }
 
-@media (min-width:991px) and (max-width: 1440px){   /* Laptop */
+@media (min-width:991px) and (max-width: 1440px){   /* LAPTOP */
     /* CARA 1 DE LA PAGINA 2 */
     .cara1{
         position: relative;

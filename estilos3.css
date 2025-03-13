@@ -195,29 +195,7 @@ nav {
     height: 100%;
 }
 
-@media (max-width:1120px) {
-    
-    .cabeza {
-        flex-direction: column;
-        justify-content: center;
-    }
-    nav {
-        display: flex;
-        width: 100%;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .botonesDerechos {
-        justify-content: center;
-    }
-    .botonI {
-        margin-left: 0;
-        height: 20px;
-    }
-    .botonD {
-        margin: auto;
-    }
-}
+
 
 .patiadera {
     bottom: 0;
@@ -267,4 +245,18 @@ nav {
     height: 2px;
     width: 2px;
     border-radius: 50%;
+}
+
+
+@media (max-width: 767px) {     /*  CELULAR  */
+    
+}
+@media (min-width: 768px) and (max-width:990px){        /*  TABLET  */
+    
+}
+@media (min-width:991px) and (max-width: 1440px){       /*  LAPTOP  */
+
+}
+@media (min-width:1441px){      /*  PC  */
+
 }
