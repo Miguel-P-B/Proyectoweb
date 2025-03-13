@@ -1,0 +1,436 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+}
+body {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    width: 100%;
+}
+nav a:hover {
+    color: rgb(6, 158, 82);
+}
+.linka {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px){      /* Celular */
+    /* CARA 1 DE LA PAGINA 2 */
+    .cara1{
+        position: relative;
+        width: 100%;
+        min-height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .imgprincipal {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 100%;
+    }
+    .img1 {
+        width: 100%;
+        height: 100%;
+    }
+    .cabeza {
+        background-color: rgb(252, 246, 239);
+        margin-top: 10px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 7px;
+    }
+    nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .logo a {
+        font-family: Arial;
+        font-style: italic;
+        font-size: 20px;
+    }
+    .logo b {
+        font-style: normal;
+    }
+    .botonesDerechos {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .carrito {
+        display: flex;
+    }
+    .newin {
+        position: absolute;
+        font-size: 40px;
+    }
+    /* CARA 2 DE LA PAGINA 2 */
+    .cara2 {
+        width: 100%;
+    }
+    .derecha {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #selector {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+        margin-bottom: 10px;
+    }
+    button {
+        border: 0;
+        background-color: transparent;
+        margin-bottom: 3px;
+    } 
+    div button:hover {
+        text-decoration: underline;
+    }
+    .izquierda {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .cj {
+        font-family: Arial;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    .imagin {
+        width: 80%;
+        height: 100%;
+    }
+    .info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dsc {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sale {
+        text-decoration: line-through;
+        margin-right: 2%;
+    }
+    
+    
+    
+    .patiadera {
+        background-color: rgb(167, 151, 140);
+        position: fixed;
+        bottom: 7%;
+        right: 0;
+        width: 10%;
+        height: 10%;
+        border-top-left-radius: 20%;
+        border-bottom-left-radius: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mensajear {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .chat {
+        width: 60%;
+    }
+    
+    .lets {
+        font-family: Arial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        font-size: 13px;
+    }
+    
+    /* CARA 3 DE LA PAGINA 2 */
+}
+@media (min-width: 768px) and (max-width:990px){    /* Tablet */
+    /* CARA 1 DE LA PAGINA 2 */
+    .cara1{
+        position: relative;
+        width: 100%;
+        min-height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .imgprincipal {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 100%;
+    }
+    .img1 {
+        width: 100%;
+        height: 100%;
+    }
+    .cabeza {
+        background-color: rgb(252, 246, 239);
+        margin-top: 10px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 7px;
+    }
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
+    .logo a {
+        font-family: Arial;
+        font-style: italic;
+        font-size: 30px;
+    }
+    .logo b {
+        font-style: normal;
+    }
+    .botonesDerechos {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .carrito {
+        display: flex;
+    }
+    .newin {
+        position: absolute;
+        font-size: 50px;
+    }
+}
+
+@media (min-width:991px) and (max-width: 1440px){   /* Laptop */
+    /* CARA 1 DE LA PAGINA 2 */
+    .cara1{
+        position: relative;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+    .imgprincipal {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 100%;
+    }
+    .img1 {
+        width: 100%;
+        height: 100%;
+    }
+    .cabeza {
+        background-color: rgb(252, 246, 239);
+        margin-top: 10px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px;
+    }
+    .navizq {
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 18px;
+    }
+    .navder {
+        width: 40%;
+        font-size: 18px;
+    }
+    .logo a {
+        font-family: Arial;
+        font-style: italic;
+        font-size: 25px;
+    }
+    .logo b {
+        font-style: normal;
+    }
+    .botonesDerechos {
+        display: flex;
+        float: right;
+    }
+    .botonD {
+        margin-right: 15px;
+    }
+    .carrito {
+        display: flex;
+    }
+    .compra {
+        margin-right: 5px;
+    }
+    .newin {
+        position: absolute;
+        font-size: 50px;
+    }
+
+    /* CARA 2 DE LA PAGINA 2 */
+    
+}
+
+
+
+@media (min-width:1441px){      /* PC */
+    /* CARA 1 DE LA PAGINA 2 */
+    .cara1{
+        position: relative;
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+    }
+    .imgprincipal {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 100%;
+    }
+    .img1 {
+        width: 100%;
+        height: 100%;
+    }
+    .cabeza {
+        background-color: rgb(252, 246, 239);
+        margin-top: 10px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px;
+    }
+    .navizq {
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 18px;
+    }
+    .navder {
+        width: 40%;
+        font-size: 18px;
+    }
+    .logo a {
+        font-family: Arial;
+        font-style: italic;
+        font-size: 25px;
+    }
+    .logo b {
+        font-style: normal;
+    }
+    .botonesDerechos {
+        display: flex;
+        float: right;
+    }
+    .botonD {
+        margin-right: 15px;
+    }
+    .carrito {
+        display: flex;
+    }
+    .compra {
+        margin-right: 5px;
+    }
+    .newin {
+        position: absolute;
+        font-size: 50px;
+    }
+
+    /* CARA 2 DE LA PAGINA 2 */
+    
+}
+
+
+
+
+/*
+.patiadera {
+    background-color: rgb(167, 151, 140);
+    bottom: 0;
+    height: 5%;
+    width: 40%;
+    right: 20px;
+    position: fixed;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cuadromsg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.msg {
+    color: white;
+    font-weight: 100;
+    margin-left: 10%;
+}
+.icono {
+    box-sizing: border-box;
+    align-items: center;
+}
+.cuadrado {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 15px;
+    width: 20px;
+    border-radius: 10%;
+}
+.triangulo {
+    width: 0;
+    height: 0;
+    margin-left: 8px;
+    border-top: solid white 2px;
+    border-left: solid transparent 2px;
+    border-bottom: solid transparent 0;
+    border-right: solid transparent 2px;
+}
+.circulo {
+    background-color: black;
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+}
+*/
