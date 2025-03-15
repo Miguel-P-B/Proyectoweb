@@ -378,11 +378,7 @@
     .ini::first-line, .contact::first-line, .servicio::first-line{
         font-size: 18px;
     }
-<<<<<<< HEAD
-    /* Patiadera */
-=======
 
->>>>>>> 8f14308116af435f1ecd64fa25ce42952f12cf39
     .patiadera {
         background-color: rgb(190, 183, 178);
         display: flex;
@@ -423,8 +419,6 @@
 
     }
 }
-
-
 
 
 @media (min-width:1441px){      /*  PC  */
@@ -489,14 +483,14 @@
     }
     .logo {
         font-family: Arial;
-        font-size: 40px;
+        font-size: 35px;
         font-style: italic;
     }
     .logo b {
         font-style: normal;
     }
     .botonI {
-        font-size: 25px;
+        font-size: 20px;
     }
     .botonesDerechos {
         width: 100%;
@@ -506,8 +500,8 @@
         justify-content: flex-end;
     }
     .botonD {
-        margin-right: 50px;
-        font-size: 25px;
+        margin-right: 30px;
+        font-size: 20px;
     }
     .compra {
         display: flex;
@@ -517,7 +511,7 @@
     .carrito {
         position: relative;
         margin-right: 10px;
-        width: 40px;
+        width: 20px;
     }
     .relleno11 {
         position: relative;
