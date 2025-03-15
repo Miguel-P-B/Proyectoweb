@@ -378,7 +378,11 @@
     .ini::first-line, .contact::first-line, .servicio::first-line{
         font-size: 18px;
     }
+<<<<<<< HEAD
     /* Patiadera */
+=======
+
+>>>>>>> 8f14308116af435f1ecd64fa25ce42952f12cf39
     .patiadera {
         background-color: rgb(190, 183, 178);
         display: flex;
