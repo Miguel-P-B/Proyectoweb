@@ -77,29 +77,27 @@
     .relleno11 {
         position: relative;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
         width: 100%;
         top: 80px;
+        right: 7%;
     }
     .cuadro11 {
         position: relative;
-        width: 200px;
-        left: 110px;
+        display: flex;
+        flex-direction: column;
+        width: 160px;
     }
     .mensaje11 {
-        font-size: 28px;
+        font-size: 25px;
         margin-bottom: 15px;
     }
     .submensaje11 {
-        font-size: 13px;
+        font-size: 11px;
         margin-bottom: 15px;
     }
     .linka {
         text-decoration: underline;
-    }
-    .cara {
-        background-color: red;
     }
     /* CARA 2 */
     .relleno12 {
@@ -148,14 +146,14 @@
         margin-top: 10px;
         margin-bottom: 0;
     }
+    /* CARA 3 DE LA PAGINA 1 */
     .cara3 {
-        background-color: red;
+        background-color: rgb(10, 135, 144);
         display: flex;
         height: 610px;
         width: 100%;
     }
     .ladoder {
-        background-color: green;
         width: 50%;
         display: flex;
         align-items: center;
@@ -166,27 +164,232 @@
         width: 100%;
     }
     .ladoizq {
-        background-color: gold;
         width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        font-size: 10px;
     }
-    .txtimg {
-        background-color: red;
+    .comfly {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+    }
+    .txtimg { 
+        width: 100%;
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+    .img15 {
+        width: 50%;
+    }
     .txtimg p {
         position: absolute;
         color: white;
-        font-size: 30px;
+        font-size: 16px;
     }
-    
+    /* CARA 4 DE LA PAGINA 1 */
+    .cara4{
+        background-color: white;
+        height: 670px;
+        width: 100%;
+    }
+    .relleno13 {
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 75px;
+        height: 610px;
+        width: 100%;
+    }
+    .siguenos {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 70px;
+        font-size: 19px;
+    }
+    .grupoimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 45%;
+        margin-bottom: 30px;
+    }
+    .img16 {
+        height: 100%;
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedor1 {
+        box-sizing: border-box;
+    }
+    .estil {
+        position: relative;
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .stylee {
+        margin-top: 0;
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .suscribete {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .iemail {
+        margin-top: 0;
+        font-size: 14px;
+    }
+    .form {
+        margin-top: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 10%;
+        width: 20%;
+    }
+    .formario {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .email {
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-bottom: 1.4px solid black;
+        background-color: transparent;
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    .subs {
+        border: none;
+        background-color: transparent;
+    }
+    /* BARRA DE LINKS REDES */
+    .contenedor {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 150px;      
+    }
+    .marcalinks {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .total {
+        position: relative;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .total p {
+        font-family: system-ui;
+        font-weight: 100;
+        margin-bottom: -5px;
+        margin-top: 0;
+        font-size: 32px;
+        font-style: italic;
+    }
+    .total b {
+        font-style: normal;
+    }
+    .iconosweb {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .ig, .fb, .tt {
+        margin-top: 0;
+        padding-top: 0;
+        width: 5%;
+    }
+    .info {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        width: 100%;
+        }
+    ul {
+        padding: 0;
+        width: 100%;
+        list-style-type: none;
+        font-size: 12px;
+    }
+    .ini::first-line, .contact::first-line, .servicio::first-line{
+        font-size: 14px;
+    }
+    /* PATIADERA DE LA PAGINA 1 */
+    .patiadera {
+        background-color: rgb(190, 183, 178);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 40px;
+        height: 113px;
+        right: 0;
+        bottom: 100px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mensajear {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 100%;
+    }
+    .icomsg {
+        height: 100%;
+        width: 100%;
+    }
+    .lets a{
+        color: white;
+        font-size: 13px;
+        display: flex;
+    }
 }
 @media (min-width: 768px) and (max-width:990px){        /*  TABLET  */
     * {
@@ -570,36 +773,33 @@
         align-items: center;
         justify-content: center;
         position: fixed;
-        width: 113px;
-        height: 40px;
+        width: 8%;
+        height: 6%;
         bottom: -1px;
         right: 14px;
-        border-top-left-radius: 5%;
-        border-top-right-radius: 5%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
     .mensajear {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 70%;
+        width: 100%;
         height: 100%;
-        justify-content: space-evenly;
     }
     .chatear {
         height: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-right: 3px;
     }
     .icomsg {
         height: 100%;
     }
     .lets a{
         color: white;
-        font-size: 10px;
+        font-size: calc(0.3vw + 0.4em);
         display: flex;
 
     }
@@ -965,7 +1165,7 @@
     }
     .info {
         position: relative;
-        width: 45%;
+        width: 50%;
         display: flex;
         justify-content: center;
         justify-content: space-evenly;
@@ -978,48 +1178,44 @@
     .ini::first-line, .contact::first-line, .servicio::first-line{
         font-size: 18px;
     }
-
+    /* PATIADERA CHAT DE LA PAGINA 1 */
     .patiadera {
         background-color: rgb(190, 183, 178);
         display: flex;
         align-items: center;
         justify-content: center;
         position: fixed;
-        width: 113px;
-        height: 40px;
+        width: 8%;
+        height: 6%;
         bottom: -1px;
         right: 14px;
-        border-top-left-radius: 5%;
-        border-top-right-radius: 5%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
     .mensajear {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 70%;
+        width: 100%;
         height: 100%;
-        justify-content: space-evenly;
     }
     .chatear {
         height: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-right: 3px;
     }
     .icomsg {
         height: 100%;
+        width: 100%;
     }
     .lets a{
         color: white;
-        font-size: 10px;
+        font-size: 11px;
         display: flex;
-
     }
 }
-
 
 @media (min-width:1441px){      /*  PC  */
     * {
@@ -1043,13 +1239,13 @@
     }
     .cara1 {
         background-color: rgb(185, 185, 185);
-        height: 868px;
+        height: 950px;
     }
     .pantallas {
         position: absolute;
         display: flex;
         width: 100%;
-        height: 868px;
+        height: 950px;
     }
     .pantalla1 {
         position: relative;
@@ -1064,7 +1260,7 @@
     .cabeza {
         position: relative;
         margin: 20px;
-        padding: 10px;
+        padding: 1%;
         background-color: white;
         display: flex;
     }
@@ -1083,14 +1279,14 @@
     }
     .logo {
         font-family: Arial;
-        font-size: 35px;
+        font-size: calc(0.8vw + 1em);
         font-style: italic;
     }
     .logo b {
         font-style: normal;
     }
     .botonI {
-        font-size: 20px;
+        font-size: calc(0.8vw + 0.01em);
     }
     .botonesDerechos {
         width: 100%;
@@ -1100,45 +1296,351 @@
         justify-content: flex-end;
     }
     .botonD {
-        margin-right: 30px;
-        font-size: 20px;
+        margin-right: 3%;
+        font-size: calc(0.8vw + 0.01em);
     }
     .compra {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-right: 3%;
+        width: 10%;
     }
     .carrito {
         position: relative;
-        margin-right: 10px;
-        width: 20px;
+        margin-right: 10%;
+        width: 20%;
     }
     .relleno11 {
         position: relative;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
+        top: 10%;
+        width: 100%;
     }
     .relleno11 a {
-        font-size: 23px;
+        font-size: calc(0.8vw + 0.1em);
     }
     .cuadro11 {
         position: relative;
         display: flex;
         flex-direction: column;
+        right: 25%;
         width: 20%;
-        left: 360px;
-        top: 300px;
+        height: 100%;
     }
     .mensaje11 {
-        font-size: 60px;
+        width: 65%;
+        font-size: calc(1vw + 2em);
     }
     .submensaje11{
-        font-size: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        width: 70%;
+        font-size: calc(0.8vw + .01em);
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
     .linka {
         text-decoration: underline;
+    }
+    /* CARA 2 */
+    .relleno12 {
+        position: relative;
+        display: flex;
+        background-color: white;
+        box-sizing: border-box;
+        height: 730px;
+    }
+    .cuadro12 {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-left: 4.3%;
+        margin-top: 10px;
+    }
+    .cuadro12 a, .cuadro13 a{
+        font-size: calc(0.7vw + 0.01em);
+    }
+    .img12 {
+        background-color: rgb(185, 185, 185);
+        height: 630px;
+        width: 100%;
+    }
+    .mensaje12 {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: calc(0.8vw + 0.8em);
+    }
+    .cuadro13 {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 600px;
+        margin-top: 10px;
+        margin-left: 12%;
+    }
+    .img13 {
+        height: 450px;
+        width: 100%;
+    }
+    .mensaje13 {
+        font-size: calc(0.8vw + 0.8em);
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    /* CARA 2 */
+    
+    /* CARA 3 */
+    .cara3 {
+        background-color: rgb(10, 135, 144);
+        box-sizing: border-box;
+        display: flex;
+        position: relative;
+        height: 686px;
+    }
+    .ladoder {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img14 {
+        width: 100%;
+        height: 100%;
+    }
+    .ladoizq {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 24%;
+        height: 70%;
+        font-size: calc(0.8vw + 0.01em);
+    }
+    .ladoizq a{
+        font-size: calc(0.8vw + 0.01em);
+    }
+    .txtimg {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .txtimg img {
+        width: 80%;
+        height: 95%;
+    }
+    .txtimg p {
+        position: absolute;
+        font-size: calc(3vw + 0.1em);
+        color: white
+    }
+    
+    /* CARA 4 DE LA PAGINA 1 */
+    .cara4{
+        background-color: white;
+        height: 670px;
+        width: 100%;
+    }
+    .relleno13 {
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 75px;
+        height: 610px;
+        width: 100%;
+    }
+    .siguenos {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 70px;
+        font-size: calc(0.8vw + 1em);
+    }
+    .grupoimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 45%;
+        margin-bottom: 30px;
+    }
+    .img16 {
+        height: 100%;
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedor1 {
+        box-sizing: border-box;
+    }
+    .estil {
+        position: relative;
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .stylee {
+        margin-top: 0;
+        font-size: calc(0.8vw + 1em);
+        margin-bottom: 0;
+    }
+    .suscribete {
+        width: 100%;
+        font-size: calc(0.8vw + 0.1em);
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .iemail {
+        margin-top: 0;
+        font-size: calc(0.9vw + 0.01em);
+    }
+    .form {
+        margin-top: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 10%;
+        width: 20%;
+    }
+    .formario {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .email {
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-bottom: 1.4px solid black;
+        background-color: transparent;
+        font-size: calc(0.9vw + 0.7em);
+        margin-right: 20px;
+    }
+    .subs {
+        border: none;
+        background-color: transparent;
+        font-size: calc(0.9vw + 0.01em);
+    }
+    
+    /* BARRA DE LINKS REDES */
+    .contenedor {
+        position: relative;
+        display: flex;
+        width: 100%;
+        padding: 20px;        
+    }
+    .marcalinks {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        width: 30%;
+    }
+    .total {
+        position: relative;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .total p {
+        font-family: system-ui;
+        font-weight: 100;
+        margin-bottom: -10px;
+        margin-top: 0;
+        font-size: calc(2vw + 1em);
+        font-style: italic;
+    }
+    .total b {
+        font-style: normal;
+    }
+    .iconosweb {
+        position: relative;
+        display: flex;
+        justify-content: left;
+        height: 100%;
+        width: 100%;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .ig, .fb, .tt {
+        margin-top: 0;
+        padding-top: 0;
+        width: 5%;
+    }
+    .info {
+        position: relative;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        }
+    ul {
+        padding: 0;
+        margin:10px;
+        list-style-type: none;
+        font-size: calc(0.7vw + 0.01em);
+    }
+    .ini::first-line, .contact::first-line, .servicio::first-line{
+        font-size: calc(1vw + 0.1em);
+    }
+
+    
+    /* PATIADERA CHAT DE LA PAGINA 1 */
+    .patiadera {
+        background-color: rgb(190, 183, 178);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 8%;
+        height: 5%;
+        bottom: -1px;
+        right: 1%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .mensajear {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .chatear {
+        height: 60%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icomsg {
+        height: 90%;
+        width: 80%;
+    }
+    .lets a{
+        color: white;
+        width: 100%;
+        font-size: calc(0.8vw + 0.01em);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
